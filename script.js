@@ -9,7 +9,7 @@ function rolldice(){
     for(let x = 0; x < ndice; x++){
         const value = Math.floor(Math.random() * 6) +1;
         values.push(value);
-        imgs.push(`<img src="${value}.jpg" alt ="Dice ${value}" style="width:100px; height: 100px; object-fit: cover; border-radiusL 10px;">`);
+        imgs.push(`<img src="${value}.jpg" alt ="Dice ${value}" style="width:100px; height: 100px;">`);
     }
     //The developer kinda slacked off with the design
 
